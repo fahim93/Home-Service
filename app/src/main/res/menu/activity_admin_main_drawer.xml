@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_manage_services"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Manage Services" />
+        <item
+            android:id="@+id/nav_secret_key"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Secret Key Generate" />
+        <item
+            android:id="@+id/nav_service_providers"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Service Providers" />
+        <item
+            android:id="@+id/nav_admins"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Admins" />
+        <item
+            android:id="@+id/nav_sp_accounts"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Sevice Provider Accounts" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>
